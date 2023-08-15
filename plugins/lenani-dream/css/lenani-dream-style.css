@@ -1,0 +1,35 @@
+#lenani-dream-search-results{display:block;width:97%;height:auto;margin-top:20px;margin-bottom:22px;border-top:2px solid #f1f1f1;box-sizing:border-box;padding:.7em;}
+/* Stiluri pentru rezultatele căutării */
+.lenani-dream-search-result {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+	float:none;clear:both;
+	border:1px solid #ccc;
+}
+.lenani-dream-search-result:before,.lenani-dream-search-result:after{content:'';display:table;clear:both;}
+/* Stiluri pentru thumbnail */
+.lenani-dream-thumbnail {
+    width: 300px;
+    height: 180px;
+    float: left;
+    margin-right: 10px;
+    position: relative; /* Adăugăm poziționarea relativă pentru a controla centrarea */
+    overflow: hidden; /* Ascundem conținutul care depășește dimensiunile containerului */
+}
+
+.lenani-dream-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top; /* Adăugăm poziția imaginii pe centrul containerului */
+    border: 1px solid #ccc;
+    padding: 5px;
+	transition:ease-in-out 2s;
+}
+.lenani-dream-thumbnail:hover img {object-fit: cover;
+    object-position: bottom;}
+	
+.lenani-dream-content h3{padding: 1em 0 0;}
+.xcerpt{}
+.mai-mult{display:block;width:90%;height:auto;margin:0 auto;text-align:right;padding:.4em 0 .7em;}	
