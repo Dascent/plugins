@@ -13,7 +13,9 @@ To be frank, I have almost no programming skills so I came up with idea, the lio
  * ZA Post - A plugin to allow visitors to post articles from frontend.
 
 <hr>
+
 ```RO```
+
 ## Proiect de pluginuri
 **Am început acest proiect open source pentru că este distractiv pentru mine, nu am cunoștințe de limbaj de programare dar este o provocare**
 
