@@ -14,10 +14,13 @@ To be frank, I have almost no programming skills so I came up with idea, the lio
 
 <hr>
 
-```RO```
+
+`RO`
 
 ## Proiect de pluginuri
+
 **Am început acest proiect open source pentru că este distractiv pentru mine, nu am cunoștințe de limbaj de programare dar este o provocare**
+
 
 Site-ul soției mele este despre spiritualitate, ezoterism, științe oculte și cunoaștere, așa că am căutat în biblioteca de pluginuri WP câteva plugin-uri legate de această nișă, dar nu am găsit ceva util, așa că mi-am îndreptat atenția către ChatGPT...
 
