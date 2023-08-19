@@ -1,0 +1,18 @@
+/*** Admin  - Backend ***/
+/* Wrapper */
+#lequiz{}
+/* Form */
+#lequizform{}
+/* Form Class label */
+.qzlbl{}
+/* Form Class quiz input text question */
+.qztxtq{}
+/* Form Class quiz input text answer */
+.qztxta{}
+/* Form Class quiz header for each question */
+.qzheader{}
+/* Form Class quiz input image file */
+.qzimg{}
+/* Form Class quiz submit button */
+.qzsub{}
+
