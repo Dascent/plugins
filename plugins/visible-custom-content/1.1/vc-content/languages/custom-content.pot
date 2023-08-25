@@ -1,0 +1,197 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Visibility Custom Content\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-24 12:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Dascent <CSSMFC@GMAIL.COM>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Domain: custom-content"
+
+#: custom-content-plugin.php:136
+msgid "&bull; Contribute with donation via"
+msgstr ""
+
+#: custom-content-plugin.php:146
+msgid "&bull; Contributor's page -"
+msgstr ""
+
+#: custom-content-plugin.php:135
+msgid "&bull; Help with further developing of these plugins."
+msgstr ""
+
+#: custom-content-plugin.php:134
+msgid "&bull; Help with translation of these plugins."
+msgstr ""
+
+#: custom-content-plugin.php:145
+msgid "&bull; Open suggestions -"
+msgstr ""
+
+#: custom-content-plugin.php:144
+msgid "&bull; Report issues -"
+msgstr ""
+
+#: custom-content-plugin.php:146
+msgid "."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A simple plugin to show different content to registered and non-registered "
+"users using shortcodes."
+msgstr ""
+
+#: custom-content-plugin.php:142
+msgid "All info and documentation is available"
+msgstr ""
+
+#: custom-content-plugin.php:95
+msgid ""
+"Choose from available presets or add your own content using the Editor tool"
+msgstr ""
+
+#: custom-content-plugin.php:84
+msgid ""
+"Content outside the tags of the shortcode will be visible along with the "
+"content you set up below."
+msgstr ""
+
+#: custom-content-plugin.php:55
+msgid "Custom Content"
+msgstr ""
+
+#: custom-content-plugin.php:54 custom-content-plugin.php:70
+msgid "Custom Content Plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid "Dascent"
+msgstr ""
+
+#: custom-content-plugin.php:141
+msgid "Documentation"
+msgstr ""
+
+#: custom-content-plugin.php:152
+msgid "Download version:"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://cssmfc.github.io/dan/"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://dascent.github.io/plugins/"
+msgstr ""
+
+#: custom-content-plugin.php:112
+msgid ""
+"Native WP editor is supporting most of the HTML and inline css markup "
+"language along with other shortcodes"
+msgstr ""
+
+#: custom-content-plugin.php:88
+msgid "Non-Registered User Content"
+msgstr ""
+
+#: custom-content-plugin.php:144 custom-content-plugin.php:145
+msgid "on GitHub"
+msgstr ""
+
+#: custom-content-plugin.php:136
+msgid "or via Bank Transfer"
+msgstr ""
+
+#: custom-content-plugin.php:75
+msgid "Plugin Information"
+msgstr ""
+
+#: custom-content-plugin.php:99
+msgid "Preset 1 - Access Upload"
+msgstr ""
+
+#: custom-content-plugin.php:100
+msgid "Preset 2 - Download File"
+msgstr ""
+
+#: custom-content-plugin.php:101
+msgid "Preset 3 - Access Content"
+msgstr ""
+
+#: custom-content-plugin.php:102
+msgid "Preset 4 - Play or Download Media File"
+msgstr ""
+
+#: custom-content-plugin.php:103
+msgid "Preset 5 - View Content"
+msgstr ""
+
+#: custom-content-plugin.php:104
+msgid "Preset 6 - View Image"
+msgstr ""
+
+#: custom-content-plugin.php:77
+msgid ""
+"Registered users will see the content that you provide within the shortcode "
+"tags, while non-registered users will see the content you set in the plugin "
+"settings."
+msgstr ""
+
+#: custom-content-plugin.php:142
+msgid "repository as open source."
+msgstr ""
+
+#: custom-content-plugin.php:113
+msgid "Save Changes"
+msgstr ""
+
+#: custom-content-plugin.php:98
+msgid "Select a preset"
+msgstr ""
+
+#: custom-content-plugin.php:93
+msgid "Select a Preset:"
+msgstr ""
+
+#: custom-content-plugin.php:183
+msgid "Settings"
+msgstr ""
+
+#: custom-content-plugin.php:81
+msgid "Shortcode Usage"
+msgstr ""
+
+#: custom-content-plugin.php:131
+msgid "Support this project"
+msgstr ""
+
+#: custom-content-plugin.php:44 custom-content-plugin.php:68
+msgid "This content is visible only to registered users."
+msgstr ""
+
+#: custom-content-plugin.php:76
+msgid ""
+"This plugin allows you to show different content to registered and non-"
+"registered users using shortcodes."
+msgstr ""
+
+#: custom-content-plugin.php:82
+msgid ""
+"To display content visible only to registered users, use the following "
+"shortcode:"
+msgstr ""
+
+#. Name of the plugin
+msgid "Visibility Custom Content"
+msgstr ""
+
+#: custom-content-plugin.php:132
+msgid "Yes we need your support and here are a few ways you can get involved:"
+msgstr ""

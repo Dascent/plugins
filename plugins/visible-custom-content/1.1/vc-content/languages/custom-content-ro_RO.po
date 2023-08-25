@@ -1,0 +1,219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Visibility Custom Content\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-24 12:38+0000\n"
+"PO-Revision-Date: 2023-08-24 16:04+0300\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 :(((n%100>19)||(( n%100==0)&&(n!"
+"=0)))? 2 : 1));\n"
+"X-Generator: Poedit 3.3.2\n"
+"X-Loco-Version: 2.6.4; wp-6.3\n"
+"X-Domain: custom-content\n"
+
+#: custom-content-plugin.php:136
+msgid "&bull; Contribute with donation via"
+msgstr "&bull; Contribuie cu donație la"
+
+#: custom-content-plugin.php:146
+msgid "&bull; Contributor's page -"
+msgstr "&bull; Pagina Contribuabili -"
+
+#: custom-content-plugin.php:135
+msgid "&bull; Help with further developing of these plugins."
+msgstr "&bull; Ajută la dezvoltarea în continuare a acestor plugin-uri."
+
+#: custom-content-plugin.php:134
+msgid "&bull; Help with translation of these plugins."
+msgstr "&bull; Ajută la traducerea acestor pluginuri."
+
+#: custom-content-plugin.php:145
+msgid "&bull; Open suggestions -"
+msgstr "&bull; Adaugă sugestii -"
+
+#: custom-content-plugin.php:144
+msgid "&bull; Report issues -"
+msgstr "&bull; Raportează o problemă -"
+
+#: custom-content-plugin.php:146
+msgid "."
+msgstr "."
+
+#. Description of the plugin
+msgid ""
+"A simple plugin to show different content to registered and non-registered "
+"users using shortcodes."
+msgstr ""
+"Un plugin simplu pentru a afișa conținut diferit utilizatorilor înregistrați "
+"și neînregistrați folosind coduri scurte."
+
+#: custom-content-plugin.php:142
+msgid "All info and documentation is available"
+msgstr "Toate informațiile și documentația sunt disponibile"
+
+#: custom-content-plugin.php:95
+msgid ""
+"Choose from available presets or add your own content using the Editor tool"
+msgstr ""
+"Alegeți dintre setările prestabilite disponibile sau adăugați propriul "
+"conținut folosind Editorul"
+
+#: custom-content-plugin.php:84
+msgid ""
+"Content outside the tags of the shortcode will be visible along with the "
+"content you set up below."
+msgstr ""
+"Conținutul din afara etichetelor codului scurt va fi vizibil împreună cu "
+"conținutul pe care l-ați configurat mai jos."
+
+#: custom-content-plugin.php:55
+msgid "Custom Content"
+msgstr "Conținut Personalizat"
+
+#: custom-content-plugin.php:54 custom-content-plugin.php:70
+msgid "Custom Content Plugin"
+msgstr "Plugin pentru Vizualizare Conținut Personalizat"
+
+#. Author of the plugin
+msgid "Dascent"
+msgstr "Dascent"
+
+#: custom-content-plugin.php:141
+msgid "Documentation"
+msgstr "Documentație"
+
+#: custom-content-plugin.php:152
+msgid "Download version:"
+msgstr "Descarcă versiunea:"
+
+#. Author URI of the plugin
+msgid "https://cssmfc.github.io/dan/"
+msgstr "https://cssmfc.github.io/dan/"
+
+#. URI of the plugin
+msgid "https://dascent.github.io/plugins/"
+msgstr "https://dascent.github.io/plugins/"
+
+#: custom-content-plugin.php:112
+msgid ""
+"Native WP editor is supporting most of the HTML and inline css markup "
+"language along with other shortcodes"
+msgstr ""
+"Editorul nativ WP acceptă majoritatea limbajului de marcare HTML și css "
+"inline, împreună cu alte coduri scurte"
+
+#: custom-content-plugin.php:88
+msgid "Non-Registered User Content"
+msgstr "Conținut  vizibil utilizator neînregistrat"
+
+#: custom-content-plugin.php:144 custom-content-plugin.php:145
+msgid "on GitHub"
+msgstr "pe GitHub"
+
+#: custom-content-plugin.php:136
+msgid "or via Bank Transfer"
+msgstr "sau via Virament Bancar"
+
+#: custom-content-plugin.php:75
+msgid "Plugin Information"
+msgstr "Informații despre plugin"
+
+#: custom-content-plugin.php:99
+msgid "Preset 1 - Access Upload"
+msgstr "Presetarea 1 - Accesați Încărcare"
+
+#: custom-content-plugin.php:100
+msgid "Preset 2 - Download File"
+msgstr "Preset 2 - Descărcați Fișierul"
+
+#: custom-content-plugin.php:101
+msgid "Preset 3 - Access Content"
+msgstr "Presetarea 3 - Accesați Conținut"
+
+#: custom-content-plugin.php:102
+msgid "Preset 4 - Play or Download Media File"
+msgstr "Preset 4 - Redați sau descărcați fișierul media"
+
+#: custom-content-plugin.php:103
+msgid "Preset 5 - View Content"
+msgstr "Presetarea 5 - Vizualizați Conținut"
+
+#: custom-content-plugin.php:104
+msgid "Preset 6 - View Image"
+msgstr "Presetare 6 - Vizualizare Imagine"
+
+#: custom-content-plugin.php:77
+msgid ""
+"Registered users will see the content that you provide within the shortcode "
+"tags, while non-registered users will see the content you set in the plugin "
+"settings."
+msgstr ""
+"Utilizatorii înregistrați vor vedea conținutul pe care îl furnizați între "
+"etichetele de coduri scurte, în timp ce utilizatorii neînregistrați vor "
+"vedea conținutul pe care l-ați setat în setările pluginului."
+
+#: custom-content-plugin.php:142
+msgid "repository as open source."
+msgstr "repository ca open source."
+
+#: custom-content-plugin.php:113
+msgid "Save Changes"
+msgstr "Salvează"
+
+#: custom-content-plugin.php:98
+msgid "Select a preset"
+msgstr "Selectați o presetare"
+
+#: custom-content-plugin.php:93
+msgid "Select a Preset:"
+msgstr "Selectați o Presetare:"
+
+#: custom-content-plugin.php:183
+msgid "Settings"
+msgstr "Setări"
+
+#: custom-content-plugin.php:81
+msgid "Shortcode Usage"
+msgstr "Utilizarea codurilor scurte"
+
+#: custom-content-plugin.php:131
+msgid "Support this project"
+msgstr "Susține acest proiect"
+
+#: custom-content-plugin.php:44 custom-content-plugin.php:68
+msgid "This content is visible only to registered users."
+msgstr "Acest conținut este vizibil doar pentru utilizatorii înregistrați."
+
+#: custom-content-plugin.php:76
+msgid ""
+"This plugin allows you to show different content to registered and non-"
+"registered users using shortcodes."
+msgstr ""
+"Acest plugin vă permite să afișați conținut diferit utilizatorilor "
+"înregistrați și neînregistrați folosind coduri scurte."
+
+#: custom-content-plugin.php:82
+msgid ""
+"To display content visible only to registered users, use the following "
+"shortcode:"
+msgstr ""
+"Pentru a afișa conținut vizibil numai pentru utilizatorii înregistrați, "
+"utilizați următorul cod scurt:"
+
+#. Name of the plugin
+msgid "Visibility Custom Content"
+msgstr "Visibility Custom Content"
+
+#: custom-content-plugin.php:132
+msgid "Yes we need your support and here are a few ways you can get involved:"
+msgstr ""
+"Da, avem nevoie de sprijinul tău și iată câteva modalități prin care te poți "
+"implica:"
+
+#~ msgid "or via BCS"
+#~ msgstr "sau via Virament Bancar"
