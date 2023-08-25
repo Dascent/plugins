@@ -1,5 +1,5 @@
 ## Version 
-Download version v1.1 <a href="https://github.com/Dascent/plugins/releases/tag/vcs1.1" target="_blank">1.1</a>
+Download version v1.1 <a href="https://github.com/Dascent/plugins/releases/tag/vcs1.1" target="_blank">v1.1</a>
 
 **Update**
  - added versioninig
