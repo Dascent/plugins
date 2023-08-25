@@ -17,4 +17,10 @@ The install process is simple follow the manual install instructions below:
 ### Versions
 
 **v1.0 - First release**
+
+ * [Download v1.0)(https://github.com/Dascent/plugins/releases/tag/vcs1.0)
+
+**v1.1 - Release**
+
+ * [Download v1.1](https://dascent.github.io/plugins/plugins/visible-custom-content/latest-updates.html)
  
