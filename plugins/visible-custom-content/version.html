@@ -3,9 +3,64 @@
 <head>
 <meta charset="utf-8">
 <title>version</title>
+<style>
+.dascent-update{display:block;width:100%;height:auto;margin:0 auto;background-color:#fff;border-bottom:1px solid #ccc;;font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+.doright{float:right;}
+.hidden {display: none;}
+.dazmessage{display:inline-block;width:70%;height:auto;margin:10px auto 12px auto;}
+.dazmessage p{display:block;width:90%;height:auto;margin:0 auto;padding:.7em;}
+.dazlink{display:inline-block;width:20%;height:auto;margin:10px auto 12px auto;text-align:center;}
+.dazlink a{padding:.7em 1em .7em;text-align:center;background-color:#3b63a3;color:#fff;text-decoration:none;border-radius:5px;}.dazlink a:hover{background-color:#222;color:#fff;text-decoration:none;}
+.dascent-update button.clo{background-color:#F30;color:#fff;text-decoration:none;border:none; outline:none;border-radius:4px;cursor:pointer;padding:.3em .5em;font-size:15px;}.dascent-update button.clo:hover{background-color:#3b63a3;color:#fff;text-decoration:none;border:none; outline:none;}button.clo span{display:block;width:10px;height:auto;transform:rotate(45deg);}
+</style>
 </head>
 
 <body>
- <div>Download Latest Version</div>
+ <div id="content" class="dascent-update hidden">
+ <span class="doright">
+  <button id="hideButton" class="clo"><span>+</span></button>
+ </span>
+  <div class="dazmessage"><p>A new version is available for download</p></div>
+  <div class="dazlink"><a href="https://dascent.github.io/plugins/plugins/visible-custom-content/latest-updates.html" target="_blank">Download Plugin</a></div>
+ </div>
+ 
+ <script>
+ document.addEventListener("DOMContentLoaded", function() {
+  const contentDiv = document.getElementById("content");
+  const hideButton = document.getElementById("hideButton");
+
+  // Obțineți ultima versiune vizualizată de utilizator din cookie
+  const lastSeenVersion = getCookie("lastSeenVersion");
+
+  // Simulați o cerere către server pentru a obține versiunea curentă a conținutului
+  const currentVersion = "2.0"; // Înlocuiți cu versiunea reală obținută de la server
+
+  if (lastSeenVersion !== currentVersion) {
+    // Dacă versiunea curentă este diferită de ultima versiune văzută,
+    // afișăm conținutul actualizat și actualizăm cookie-ul
+    contentDiv.classList.remove("hidden");
+    setCookie("lastSeenVersion", currentVersion, 365); // Setăm un cookie cu durata de 1 an
+  }
+
+  // Adăugăm ascultător pentru butonul "Ascunde"
+  hideButton.addEventListener("click", function() {
+    contentDiv.classList.add("hidden");
+  });
+});
+
+// Funcție pentru obținerea valorii unui cookie
+function getCookie(name) {
+  const value = `; ${document.cookie}`;
+  const parts = value.split(`; ${name}=`);
+  if (parts.length === 2) return parts.pop().split(";").shift();
+}
+
+// Funcție pentru setarea unui cookie
+function setCookie(name, value, days) {
+  const expirationDate = new Date();
+  expirationDate.setTime(expirationDate.getTime() + (days * 24 * 60 * 60 * 1000));
+  document.cookie = `${name}=${value}; expires=${expirationDate.toUTCString()}; path=/`;
+}
+</script>
 </body>
 </html>
