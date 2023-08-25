@@ -3,7 +3,7 @@
  * Plugin Name: Visibility Custom Content 
  * Plugin URI: https://dascent.github.io/plugins/
  * Description: A simple plugin to show different content to registered and non-registered users using shortcodes.
- * Version: 1.1
+ * Version: v1.1
  * Author: Dascent
  * Author URI: https://cssmfc.github.io/dan/
  * Text Domain: custom-content
