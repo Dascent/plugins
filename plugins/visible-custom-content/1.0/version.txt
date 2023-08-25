@@ -1,0 +1,1 @@
+<a href="https://github.com/Dascent/plugins/releases/tag/vcs1.0" target="_blank">1.0</a>
