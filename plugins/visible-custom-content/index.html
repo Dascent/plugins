@@ -1,1 +1,208 @@
-adding content
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Visibility Custom Content</title>
+<style>
+*{box-sizing:border-box;}
+body{width:100%;margin:0 auto;background-color:#f1f1f1;color:#555;font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";}
+.container{display:block;width:80%;height:auto;margin:0 auto;padding:0 0 2em;background-color:#fff;}
+.dazheader{display:block;width:100%;height:auto;margin:0 auto;padding:0 0 .7em;background-color:#344e82;color:#f1f1f1;}
+.dazheader h1{display:block;width:90%;height:auto;margin:0 auto;padding:.5em .5em 0;font-size:1.7em;font-weight:500;line-height:normal;text-transform:uppercase;}
+.dazheader em{display:block;width:90%;height:auto;margin:0 auto;padding:0 .5em 0;font-size:1em;font-weight:100;}
+.corpus{display:block;width:90%;height:auto;margin:0 auto;padding:.5em;box-sizing:border-box;float:none;clear:both;}
+.donfo h3{padding:.3em 0 .3em; border-bottom:1px solid #ccc;text-indent:11px;}
+.path{font-weight:500;color:#000;}
+.screenshot{display:block;width:80%;max-width:80%;min-width:300px;height:auto;margin:10px auto 12px auto;text-align:center;padding:.5em;background-color:#f1f1f1;text-decoration:none!important;}.screenshot a{text-decoration:none!important;}.screenshot img{display:block;width:100%;height:auto;margin:0 auto;}.screenshot span.caption{padding:.3em 0 .3em;font-size:13px;color:#666;text-decoration:none!important;}
+.demo{min-width:100%;max-width:100%;min-height:220px;max-height:400px;}.render-demo{display:block;min-width:90%;max-width:90%;min-height:220px;max-height:400px;margin:6px auto 8px auto;box-shadow: inset 0 0 3px #999;border:1px solid #ccc;box-sizing:border-box;padding:1em;}
+</style>
+</head>
+
+<body>
+
+
+<div class="container">
+<!-- Header -->
+ <div class="dazheader">
+   <h1>Dascent Mini-Plugins / Visibility Custom Content</h1>
+   <em>open source WordPress Plugins. A project sponsored by Lenani Art SRL</em>
+ </div>
+<!--/ Header -->
+
+<!-- Corpus -->
+<div class="corpus">
+
+ <div class="donfo"><!-- About -->
+   <h3>Visibility Custom Content</h3>
+   <p><strong>A simple plugin to show different content to registered and non-registered users using shortcodes.</strong></p>
+
+<p>Registered users will see the content that you provide within the shortcode tags, while non-registered users will see the content you set in the plugin settings.</p>
+ </div><!--/ About -->
+ 
+ 
+ 
+ 
+ <div class="donfo"><!-- Plugin functionalitate si documentatie -->
+   
+   <section id="install">
+    <h3>How to install</h3>
+    <p>The install process is simple follow the manual install instructions below:</p>
+    <ol>
+     <li>Download the latest version of the plugin</li>
+     <li>Login to your wordpress website as admin</li>
+     <li>Navigate to <span class="path">Plugins</span> in Dashboard sidebar</li>
+     <li>Click the <span class="path">Add New</span> and <span class="path">Upload Plugin</span></li>
+     <li>The next option is to choose the plugin's zip file you've previously downloaded</li>
+     <li>Click <span class="path">Install Now</span> button</li>
+     <li>When prompt, <span class="path">Activate Plugin</span></li>
+    </ol>
+   </section>
+  
+  
+   <section id="use">
+    <h3>How to use</h3>
+    <p><strong>Visibility Custom Content</strong> comes with additional options, but let's start step by step</p>
+    
+    <h1>v1.0 First Release</h1>
+    <p>After activating the plugin go plugin's option page. In your Dashboard, sidebar will display a new button, a new navigation tab named <span class="path">Custom Content</span> with a lock icon.</p>
+    
+    <div class="screenshot"><a href="assets/images/screenshot-1.png" target="_blank"><img src="assets/images/screenshot-1.png" alt="Plugin options page"/></a></div>
+    
+    <p>From this section we can setup a few options.</p>
+    <p>The shortcode which can be used in any part of your website (article, single post type, page, custom post type, archive type, widget) is <code>[custom_content]...your content here...[custom_content]</code></p> 
+    
+    
+    <p>1. <strong>Presets</strong>
+    <br>Choose from available presets or add your own content using the Editor tool.<br>
+    The drop-down has 6 presets available, basically 6 custom HTML with inline css code snippets which prepopulate the Editor when selected.<br>
+    Use the <span class="path">Text</span> tab of the native wordpress Editor to view the markup code.<br></p>
+    
+    <p>1.1 <strong>Presets - Use of Presets or adding custom content</strong><br>
+    The presets option is pre populating the Editor with 6 code snippets but it is your choice if you want to use them or not.<br>
+    Optional action. Delete the code snippet of selected preset from Editor and add your own content.<br>
+    <em>Note: there's an issue with added images via manual coding. The Editor adds backslashes and the image will no longer display properly upon saving the changes.</em><br>
+    Please remember, the content added within this section is visible to non members.</p>
+    
+    <p>1.2 <strong>Presets - Push for development</strong><br>
+    If you have some basic programming skills, you can add more presets by manually editing the <span class="path">Preselect</span> function from js file <code>js/vcs-content-admin.js</code> and update the functionality within the plugin's main file <code>custom-content-plugin.php</code>. Serch for the <code>echo &quot;&lt;select id='preset-select'&gt;&quot;;</code> line and from there you can see the options within the from element.</p>
+    
+    <p>1.3 <strong>Editor</strong><br>
+    The editor is using the core worpdpress native editor so if you are using the Classic one, that will be available for you, if you have other extensions which show up in editor UI, then, all those will also be available to you.</p>
+    
+    
+    <h1>v1.1 Extended Version</h1>
+    
+    <p>All information from v1.0 apply.</p>
+    <p>The extended version is compatible with the "new wordpress editor", the block editor.</p>
+    
+    <p>1. <strong>Flexibility of the shortcode - Block element</strong><br>
+    When starting a new post or writing content for a new page and new block editor is used, search for <span class="path">Custom Content</span> block.</p>
+    
+    
+    <div class="screenshot"><a href="assets/images/screenshot-2.png" target="_blank"><img src="assets/images/screenshot-2.png" alt="Plugin Block Shortcode"/><span class="caption">Block Shortcode</span></a></div>
+    
+    
+    <p>1.2 <strong>Flexibility of the shortcode - Block element settings</strong><br>
+    Settings of this custom block element are simple and easy to use.<br>
+    The right sidebar of the editor is displaying all available options like:</p>
+    <ul>
+    <li><strong>Text Color</strong> - option to choose the color of the text using the color picker. Helpful to match the overal color palette of the used theme.</li>
+    <li><strong>Background Color</strong> - option to choose the background color of the entire block element. Helpful to match the overal color palette of the used theme.</li>
+    <li><strong>Select Background Image</strong> - option to setup a background image for the entire block element. It will be set as <code>background-position:center;</code>. Please note: when using the backgroud image option, the background color will no longer be visible.</li>
+    <li><strong>Text Position</strong> - available options: left, center, right. Wonderful to create hero sections.</li>
+    <li><strong>Padding</strong> and <strong>Margin</strong> -  use the slider to change the padding and margin values for better display.</li>
+    </ul>
+    
+
+    
+    <p>3. <strong>Flexibility of the shortcode - Magic within</strong><br>
+    Use any shortcode within the shortcode.<br>
+    Use most of the markup language to create your custom content.<br>
+    I've tested the <a href="https://wordpress.org/plugins/wp-coder/" target="_blank">WPCode</a> (Wow Plugins) shortcodes with this plugin and no conflicts. Of course a good practice is to avoid the same class or id names.</p>
+    
+    <h1>v1.1.1 Extended Version</h1>
+    <p>In previous version I've noticed that there's no option to remove the background image which I previously set up so, the v1.1.1 update enables that functionality and more. Read the <a href="https://dascent.github.io/plugins/plugins/visible-custom-content/latest-updates.html#v1-1-1">v1.1.1</a> release notes.</p>
+    
+   </section>
+   
+   
+   <section id="shortcod-use">
+   <h3>Using the Shortcode</h3>
+   <p>When I said <strong>flexibility</strong>, I meant <span class="path">flexibility</span></p>
+   
+   <p>1. <strong>Basic Usage</strong></p>
+   <p>In Classic editor the shortcode can be used like this</p>
+   <textarea disabled readonly class="demo">[custom_content]your content here[custom_content]</textarea>
+   <p>Registered members will see:</p>
+   <pre><code>your content here</code></pre>
+   <p>Visitors will see:</p>
+   <pre><code>whatever content you've set in plugin's settings page and even the content which is outside of the shortcode tags (if any)</code></pre>
+   <p>Another example:</p>
+   <textarea disabled readonly class="demo">[custom_content]1. Content visible for registered members.[custom_content]
+   2. Content visible for both registered and non-registered members.
+   </textarea>
+   <p>Registered members will see:</p>
+   <pre><code>1. Content visible for registered members</code></pre>
+   <pre><code>2. Content visible for both registered and non-registered members.</code></pre>
+   <p>Visitors will see:</p>
+   <pre><code>1. whatever content you've set in plugin's settings page and even the content which is outside of the shortcode tags (if any)</code></pre>
+   <pre><code>2. Content visible for both registered and non-registered members.</code></pre>
+   
+   <p>1.1 <strong>Basic Usage - with markup</strong></p>
+   <p>The shorcode is rendering ok most of the HTML and inline CSS markup so here's an example markup used within the shortcode</p>
+   <textarea disabled readonly class="demo">[custom_content]&lt;h1&gt;Hello World&lt;/h1&gt;
+ &lt;p&gt;This is content added manually with basic&nbsp;HTML tags&lt;/p&gt;
+ &lt;p&gt;Links can be added too, like this &lt;a href=&quot;#&quot;&gt;a link&lt;/a&gt;&lt;/p&gt;[custom_content]
+   </textarea>
+   <p>Will render:</p>
+   <div class="render-demo">
+     <h1>Hello World</h1> 
+     <p>This is content added manually with basic HTML tags</p>
+     <p>Links can be added too, like this <a href="#">a link</a></p>
+   </div>
+   
+   <p>Of course, if no inline styles are specified, the HTML tags will automatically inherit your theme's global css</p>
+   
+   <p>1.2 <strong>Extended Usage - shortcode within</strong></p>
+   <p>As mentioned above, most shortcodes are rendering ok and here's how I tested this:</p>
+   <p>I've used a shortcode from another plugin which allows me to add different code snippets here and there on my platform, and another shortcode with some <span class="path">share buttons</span>, both codes worked perfectly</p>
+   <textarea disabled readonly class="demo">[custom_content][WP-Coder title="RevealCard-WebApp"] [social-share][custom_content]
+   </textarea>
+   <p>On frontend both shortcodes were rendering their content within main <code>[custom_content]</code></p>
+   </section>
+   
+   
+   <section id="to-do">
+     <h3>To Do</h3>
+     <p>Yes, there's a lot of work to be done, a lot of improvements yet I want a lite plugin, low on resources but functional</p>
+      <p>Some ideas might work, some might not but here's the list:</p>
+      
+  <form>
+  <input type="checkbox" name="todo1" value="No">
+  <label for="todo1"> Function to set and save multiple instances for the backend preset because right now, the chosen preset or content set from plugin's options page is rendering globally.</label><br>
+  <input type="checkbox" name="todo2" value="No">
+  <label for="todo2"> Function to save, edit, delete saved presets</label><br>
+  <input type="checkbox" name="todo3" value="Yes" checked>
+  <label for="todo3"> Translation ready</label><br>
+  <input type="checkbox" name="todo4" value="No">
+  <label for="todo4"> Security</label><br>
+</form>
+
+<p>Because the plugin is not added in Wordpress plugin's library, there are two external files which display dinamic content.</p>
+<p>Both files are also hosted by github and the they are called by the main plugin's php file.</p>
+<p>First file is the <a href="https://dascent.github.io/plugins/plugins/visible-custom-content/v.txt">version text</a> file which you can see it at the very bottom (right) of the info section and the content is changed manually when a new version is released</p>
+<p>The second file should be a notification version which shows up in option page of the plugin. I did added a coockie to it in order to not show if you click the "x" icon but it seams I didn't do a good job because it should read if there were changes made since last visit and display the New Version notification even if user clicked the "x" close button. Anyway, <a href="https://dascent.github.io/plugins/plugins/visible-custom-content/version.html">the file is this</a>, and is manually edited with the download link</p>
+   </section>
+  </div><!--/ Plugin functionalitate si documentatie -->
+ 
+ 
+ 
+</div>
+<!--/ Corpus -->
+
+</div>
+
+
+
+</body>
+</html>
